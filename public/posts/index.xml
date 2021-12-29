@@ -1,0 +1,28 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>所有文章 - kiwi4814&#39;s xiaopozhan</title>
+        <link>http://kiwi4814.com/posts/</link>
+        <description>所有文章 | kiwi4814&#39;s xiaopozhan</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Wed, 29 Dec 2021 22:47:19 &#43;0800</lastBuildDate><atom:link href="http://kiwi4814.com/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Third_post</title>
+    <link>http://kiwi4814.com/posts/third_post/</link>
+    <pubDate>Wed, 29 Dec 2021 22:47:19 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>http://kiwi4814.com/posts/third_post/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Second_post</title>
+    <link>http://kiwi4814.com/posts/second_post/</link>
+    <pubDate>Wed, 29 Dec 2021 22:42:13 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>http://kiwi4814.com/posts/second_post/</guid>
+    <description><![CDATA[一些常用的方法论 一、思考技巧与模板 1. SCQA SCQA模型是一个“结构化表达”工具，是麦肯锡咨询顾问芭芭拉·明托在《金字塔原理》中提出的。 S（Sit]]></description>
+</item><item>
+    <title>First_post</title>
+    <link>http://kiwi4814.com/posts/first_post/</link>
+    <pubDate>Mon, 27 Dec 2021 20:35:47 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>http://kiwi4814.com/posts/first_post/</guid>
+    <description><![CDATA[一些废话 初衷：除了分享给大家之外，也用来备份大部分我平时使用频率很低的软件； 软件大家用着舒服即可，本文旨抛砖引玉，同类型下在没有更好软件的时]]></description>
+</item></channel>
+</rss>
