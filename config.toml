@@ -2,7 +2,7 @@
 # 站点配置
 
 baseURL = "https://kiwi4814.github.io/"
-title = "客驿风尘面，花坐墨痕枝。"
+title = "客驿风尘面，花坐墨痕枝"
 languageCode = "zh-CN"
 hasCJKLanguage = true
 # 版权信息（支持 Markdown）
@@ -53,6 +53,7 @@ uglyURLs = false
 [taxonomies]
     category = "categories"
     tag = "tags"
+    series = "series"
 
 # 修改时间
 [frontmatter]
@@ -188,12 +189,12 @@ uglyURLs = false
 
 [menu]
     ## 菜单栏
-    [[menu.main]]
-        pageref = "/home/"
-        name = "首页"
-        weight = 1
-        pre = "internal"
-        post = "home"
+    # [[menu.main]]
+    #     pageref = "/home/"
+    #     name = "首页"
+    #     weight = 1
+    #     pre = "internal"
+    #     post = "home"
     [[menu.main]]
         pageref = "/posts/"
         name = "文章"
@@ -213,23 +214,72 @@ uglyURLs = false
         pre = "internal"
         post = "tags"
     [[menu.main]]
+        pageref = "/series/"
+        name = "系列"
+        weight = 5
+        pre = "internal"
+        post = "wpexplorer"     
+    [[menu.main]]
         pageref = "/about/"
         name = "关于"
-        weight = 5
+        weight = 6
         pre = "internal"
         post = "user-circle"
     [[menu.main]]
-        weight = 6
-        identifier = "theme-switcher"
-    [[menu.main]]
         weight = 7
-        identifier = "lang-switcher"
-    [[menu.main]]
-        weight = 8
-        identifier = "search"
-        post = "search"
+        identifier = "theme-switcher"
+    # [[menu.main]]
+    #     weight = 8
+    #     identifier = "lang-switcher"
+    # [[menu.main]]
+    #     weight = 9
+    #     identifier = "search"
+    #     post = "search"
 
+    # 首页的底部链接
+    # [[menu.home]]
+    #     pageref = "/home/"
+    #     name = "Home"
+    #     weight = 1
+    #     pre = "internal"
+    # [[menu.home]]
+    #     url = "https://kiwi4814.com/"
+    #     name = "Telegram"
+    #     weight = 2
+    #     pre = "external"
+    # [[menu.home]]
+    #     url = "/atom.xml"
+    #     name = "Feed"
+    #     weight = 3
+    #     pre = "external"
+    ## 社交栏
+    [[menu.socials]]
+        url = "https://github.com/kiwi4814"
+        name = "GitHub"
+        weight = 1
+        pre = "external"
+    [[menu.socials]]
+        url = "https://t.me/kiwi4814"
+        name = "Telegram"
+        weight = 2
+        pre = "external"
 
+    ## 链接栏
+    [[menu.links]]
+        pageref = "/"
+        name = "Home"
+        weight = 1
+        pre = "internal"
+    [[menu.links]]
+        pageref = "/tags/"
+        name = "Tags"
+        weight = 2
+        pre = "internal"
+    [[menu.links]]
+        pageref = "/categories/"
+        name = "categories"
+        weight = 3
+        pre = "internal"
 
 ##########################################
 # 主题配置
@@ -277,7 +327,8 @@ uglyURLs = false
     # 如果否，则会使用你的站点标题作为默认值，并
     # 以文字的形式显示，下方可配置字号和字色。字
     # 体请到底部的字体部分配置。单位：em。
-    siteBrandFontSize = 1
+    # 【注】logo字样的大小
+    siteBrandFontSize = 1.2
     siteBrandFontColor = "var(--color-contrast-high)"
 
 
@@ -285,11 +336,11 @@ uglyURLs = false
     # 菜单栏
 
     # 是否开启
-    enableMenu = true
+    enableMenu = false
     # 说明：对弹性布局的顶栏无效
 
     # 是否在首页显示
-    displayMenuInHome = true
+    displayMenuInHome = false
     # 说明：对弹性布局的顶栏无效
 
     # 是否按文章分区高亮当前菜单项
@@ -308,13 +359,44 @@ uglyURLs = false
     # 3. posts     文章摘要
     # 4. page      普通页面
 
-    homeLayout = "posts"
+    homeLayout = "poetry"
 
     ## 「诗意人生」
     # 诗句，支持 Markdown
-    homePoetry = []
+    # homePoetry = ["The apparition of these faces in the crowd,","Petals on a wet,","black bough."]
+    # homePoetry = ["滕王高阁临江渚，","佩玉鸣鸾罢歌舞。","画栋朝飞南浦云，","珠帘暮卷西山雨。","闲云潭影日悠悠，","物换星移几度秋。","阁中帝子今何在？","槛外长江空自流。"]    
+    homePoetry = ["将进酒·君不见黄河之水天上来",
+
+"[唐] 李白",
+
+"君不见黄河之水天上来，奔流到海不复回。",
+
+"君不见高堂明镜悲白发，朝如青丝暮成雪。",
+
+"人生得意须尽欢，莫使金樽空对月。",
+
+"天生我材必有用，千金散尽还复来。",
+
+"烹羊宰牛且为乐，会须一饮三百杯。",
+
+"岑夫子，丹丘生，将进酒，杯莫停。",
+
+"与君歌一曲，请君为我倾耳听。",
+
+"钟鼓馔玉不足贵，但愿长醉不复醒。",
+
+"古来圣贤皆寂寞，惟有饮者留其名。",
+
+"陈王昔时宴平乐，斗酒十千恣欢谑。",
+
+"主人何为言少钱，径须沽取对君酌。",
+
+"五花马，千金裘，",
+
+"呼儿将出换美酒，与尔同销万古愁。"]    
+
     # 底部链接的内间距，单位：em
-    homeLinksPadding = 1
+    homeLinksPadding = 2
 
     ## 「视频片段」
     homePoster = ""
@@ -337,7 +419,7 @@ uglyURLs = false
     # 说明：用于 JSON-LD、Open Graph
 
     # 站点的描述
-    siteDescription = "MemE 是一个强大且可高度定制的 GoHugo 博客主题，专为个人博客设计。"
+    siteDescription = "这是kiwi4814的个人博客！"
     # 说明：用于 HTML 的头部元数据、JSON-LD、
     #      Open Graph、Atom、RSS
 
@@ -411,7 +493,7 @@ uglyURLs = false
     # 列表页面
 
     # 宽度
-    listWidth = 42
+    listWidth = 36
     # 说明：如果留空（""），则用 42 作为默认值
     #      单位：em
 
@@ -419,7 +501,7 @@ uglyURLs = false
     displayListTitle = true
 
     # 日期的格式
-    listDateFormat = "1 月 2 日"
+    listDateFormat = "2006-01-02"
     # 注意：请遵循格式 https://gohugo.io/functions/format/
 
     # 日期的位置
@@ -427,15 +509,15 @@ uglyURLs = false
     # 说明：left（左边）或 right（右边）
 
     # 是否按月份分隔列表
-    groupByMonth = true
+    groupByMonth = false
 
     # 是否开启十二生肖
     chineseZodiac = true
 
     # 是否翻译年份（仅对年份标题有效）
-    i18nYear = true
+    i18nYear = false
     # 是否翻译月份（仅对月份标题有效）
-    i18nMonth = true
+    i18nMonth = false
 
 
     ######################################
@@ -552,7 +634,7 @@ uglyURLs = false
 
     # 说明：仅在生产环境（production）下渲染
 
-    enableServiceWorker = false
+    enableServiceWorker = true
 
 
     ######################################
@@ -732,12 +814,12 @@ uglyURLs = false
     # 文章元信息
 
     # 是否开启（全局设置）
-    enablePostMeta = true
+    enablePostMeta = false
     # 说明：文章的 Front Matter 中的 `meta`
     #      的优先级高于此处
 
     # 是否在首页开启
-    enablePostMetaInHome = true
+    enablePostMetaInHome = false
     # 说明：仅对「文章摘要」和「普通页面」
     #      首页布局有效
 
@@ -1112,10 +1194,10 @@ uglyURLs = false
     # 文章分享
 
     # 是否开启
-    enablePostShare = true
+    enablePostShare = false
 
     # 是否显示（全局设置）
-    displayPostShare = true
+    displayPostShare = false
     # 说明：文章的 Front Matter 中的 `share`
     #      的优先级高于此处
 
@@ -1137,10 +1219,10 @@ uglyURLs = false
     # 相关文章
 
     # 是否开启
-    enableRelatedPosts = true
+    enableRelatedPosts = false
 
     # 是否显示（全局设置）
-    displayRelatedPosts = true
+    displayRelatedPosts = false
     # 说明：文章的 Front Matter 中的 `related`
     #      的优先级高于此处
 
@@ -1238,7 +1320,7 @@ uglyURLs = false
     iconAnimation = true
 
     # 是否显示 Hugo 和 MemE 的链接
-    displayPoweredBy = true
+    displayPoweredBy = false
 
     # 是否显示站点的版权信息
     displaySiteCopyright = true
