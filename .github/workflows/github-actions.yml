@@ -26,7 +26,7 @@ jobs:
       # 创建 CNAME，这个是原始配置中没有的
       - uses: "finnp/create-file-action@master"
         env:
-          FILE_NAME: "CNAME1"
+          FILE_NAME: "./public/CNAME1"
           FILE_DATA: "kiwi4814.com"
           
       - name: Deploy
