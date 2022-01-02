@@ -22,7 +22,13 @@ jobs:
 
       - name: Build
         run: hugo --minify	# 使用hugo构建静态网页
-
+        
+      # 创建 CNAME，这个是原始配置中没有的
+      - uses: "finnp/create-file-action@master"
+        env:
+          FILE_NAME: "./CNAME"
+          FILE_DATA: "kiwi4814.me"
+          
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3	# 一个自动发布github pages的action
         with:
