@@ -25,7 +25,7 @@ pluralizeListTitles = false
 summaryLength = 42
 
 # 是否开启 GitHub 风格的 Emoji 书写方式
-enableEmoji = false
+enableEmoji = true
 
 # 脚注的返回链接中的文本
 footnoteReturnLinkContents = "↩"
@@ -46,9 +46,9 @@ uglyURLs = false
 
 # URL 结构
 [permalinks]
-    categories = "/categories/:slug/"
-    tags = "/tags/:slug/"
-
+    categories = "/categories/:year/:month/:slug/"
+    tags = "/tags/:year/:month/:slug/"
+    series = "/series/:year/:month/:slug/"
 # 类别
 [taxonomies]
     category = "categories"

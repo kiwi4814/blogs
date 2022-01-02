@@ -1,13 +1,11 @@
 +++
 title = "CentOS 7离线安装MySQL 5.7"
-date = "2022-01-01T23:46:30+08:00"
+date = "2020-08-30T23:46:30+08:00"
 tags = ["Linux","软件","MySQL"]
 slug = "/mysql-install"
 draft = false
 categories = ["软件与工具"]
 series = ["Linux运维"]
-summary = ""
-
 +++
 
 # 
@@ -65,11 +63,7 @@ summary = ""
 
 4. 将`mysql`离线安装文件上传到服务器上
 
-   （1）[下载地址](https://downloads.mysql.com/archives/community/)及文件位置
-
-   ![image-20200312165133529](/Users/heqifeng/Library/Application Support/typora-user-images/image-20200312165133529.png)
-
-   
+   （1）[下载地址](https://downloads.mysql.com/archives/community/)
 
    （2）上传到服务器的`/usr/local/`目录下
 
@@ -78,7 +72,7 @@ summary = ""
    ```
 
    
-
+   
 5. 解压并建立软链接
 
    ```shell

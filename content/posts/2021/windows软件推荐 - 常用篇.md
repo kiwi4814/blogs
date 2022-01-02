@@ -2,7 +2,10 @@
 title = "Windows软件推荐——常用篇"
 date = 2021-12-27T20:35:47+08:00
 draft = false
+slug = "/win-soft-normal"
 tags = ["Windows", "软件"]
+categories = ["软件与工具"]
+series = ["Windows软件推荐"]
 summary = "本文分享了我个人在windows系统上最常用的软件。"
 +++
 

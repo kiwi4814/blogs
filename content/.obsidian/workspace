@@ -1,0 +1,98 @@
+{
+  "main": {
+    "id": "03c3a61eeb9e60a2",
+    "type": "split",
+    "children": [
+      {
+        "id": "3ba516761ef36449",
+        "type": "leaf",
+        "state": {
+          "type": "empty",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "498376d5e94d94a8",
+    "type": "split",
+    "children": [
+      {
+        "id": "8252ec1ca3d78701",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "860efce2ca8cf124",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "ea9de90eb6760491",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 445
+  },
+  "right": {
+    "id": "d0127c78c93ce43a",
+    "type": "split",
+    "children": [
+      {
+        "id": "10ab90494b17b75d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c1d1e81ae3b3256f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "3ba516761ef36449",
+  "lastOpenFiles": [
+    "posts/archive/Camunda流程引擎简介及功能拓展.md",
+    "posts/archive/CentOS 7离线安装MySQL 5.7.md",
+    "posts/archive/如何在MySQL中设计一个树形存储结构？.md",
+    "posts/archive/介绍几种分号的不同写法.md",
+    "posts/archive/获取YYYY-MM-dd所在月份的最后一天.md",
+    "posts/2021/WSL安装oh-my-posh踩坑记录.md",
+    "posts/2021/windows软件推荐 - 常用篇.md",
+    "posts/archive/Java和Javascript去除字符串空格的方法.md",
+    "posts/archive/MySQL优化之索引（index）.md",
+    "posts/2021/常见方法论和心理效应.md"
+  ]
+}
