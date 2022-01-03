@@ -84,15 +84,15 @@
   },
   "active": "3ba516761ef36449",
   "lastOpenFiles": [
+    "posts/2022/Hugo+Gihub Pages搭建个人博客.md",
+    "posts/2019/Camunda流程引擎简介及功能拓展.md",
+    "posts/2019/Homebrew卡在 Updating Homebrew 的解决方法.md",
+    "posts/2019/Java和Javascript去除字符串空格的方法.md",
+    "posts/2019/介绍几种分号的不同写法.md",
+    "posts/2019/获取YYYY-MM-dd所在月份的最后一天.md",
     "posts/archive/Camunda流程引擎简介及功能拓展.md",
     "posts/archive/CentOS 7离线安装MySQL 5.7.md",
     "posts/archive/如何在MySQL中设计一个树形存储结构？.md",
-    "posts/archive/介绍几种分号的不同写法.md",
-    "posts/archive/获取YYYY-MM-dd所在月份的最后一天.md",
-    "posts/2021/WSL安装oh-my-posh踩坑记录.md",
-    "posts/2021/windows软件推荐 - 常用篇.md",
-    "posts/archive/Java和Javascript去除字符串空格的方法.md",
-    "posts/archive/MySQL优化之索引（index）.md",
-    "posts/2021/常见方法论和心理效应.md"
+    "posts/archive/介绍几种分号的不同写法.md"
   ]
 }
