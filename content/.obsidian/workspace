@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "posts/2021/WSL安装oh-my-posh踩坑记录.md",
+            "file": "posts/2020/聊一聊控制反转、依赖反转、依赖注入三个概念的区别和联系 .md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "posts/2021/WSL安装oh-my-posh踩坑记录.md",
+                "file": "posts/2020/聊一聊控制反转、依赖反转、依赖注入三个概念的区别和联系 .md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "3ba516761ef36449",
   "lastOpenFiles": [
-    "posts/2021/WSL安装oh-my-posh踩坑记录.md",
-    "posts/2021/Windows软件不完全推荐03—工具篇.md",
-    "posts/2021/Windows软件不完全推荐02—办公篇.md",
-    "posts/2021/windows软件不完全推荐01—常用篇.md",
+    "posts/2020/聊一聊控制反转、依赖反转、依赖注入三个概念的区别和联系 .md",
+    "posts/2020/如何在MySQL中设计一个树形存储结构？.md",
+    "posts/2020/神奇的i=i++.md",
+    "posts/2020/CentOS 7离线安装MySQL 5.7.md",
     "posts/2020/Java数组All elements are null异常.md",
-    "posts/2022/从零开始搭建个人博客（1） - 准备工作.md",
-    "posts/2022/Hugo+Gihub Pages搭建个人博客.md",
-    "posts/2019/Camunda流程引擎简介及功能拓展.md",
-    "posts/2019/Homebrew卡在 Updating Homebrew 的解决方法.md",
-    "posts/2019/Java和Javascript去除字符串空格的方法.md"
+    "posts/2020/Java线程池ThreadPoolExecutor.md",
+    "posts/2020/Java中的位运算.md",
+    "posts/2020/JUC框架简介.md",
+    "posts/2020/MySQL优化之索引（index）.md",
+    "posts/2021/Windows软件不完全推荐03—工具篇.md"
   ]
 }
