@@ -1,6 +1,6 @@
 +++
 title = "神奇的i=i++"
-date = 2020-3-27T20:35:47+08:00
+date = 2020-03-27T20:35:47+08:00
 draft = false
 slug = "/i-plus-plus"
 tags = ["Java"]

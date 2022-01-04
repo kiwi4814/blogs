@@ -1,6 +1,6 @@
 +++
 title = "Java中的位运算"
-date = 2020-5-27T20:35:47+08:00
+date = 2020-05-27T20:35:47+08:00
 draft = false
 slug = "/bit-operation"
 tags = ["Java"]

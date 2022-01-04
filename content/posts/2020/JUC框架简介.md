@@ -1,6 +1,6 @@
 +++
 title = "JUC框架简介"
-date = 2020-6-27T20:35:47+08:00
+date = 2020-06-27T20:35:47+08:00
 draft = false
 slug = "/juc-summary"
 tags = ["Java"]
