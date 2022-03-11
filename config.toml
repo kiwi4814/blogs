@@ -493,7 +493,7 @@ uglyURLs = false
     # 列表页面
 
     # 宽度
-    listWidth = 36
+    listWidth = 50
     # 说明：如果留空（""），则用 42 作为默认值
     #      单位：em
 
