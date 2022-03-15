@@ -7,8 +7,11 @@
         "id": "d13b8d4df001458f",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "content/posts/2022/面向对象编程02：接口与抽象类.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -44,12 +47,20 @@
                 "sortOrder": "alphabetical"
               }
             }
+          },
+          {
+            "id": "f824c8adff72a95a",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 512
   },
   "right": {
     "id": "aebe9da7f5151b96",
@@ -65,6 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "content/posts/2022/面向对象编程02：接口与抽象类.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -83,5 +95,12 @@
     "collapsed": true
   },
   "active": "d13b8d4df001458f",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "content/posts/2022/面向对象编程02：接口与抽象类.md",
+    "content/posts/2022/从零开始搭建个人博客（1） - 准备工作.md",
+    "content/posts/2022/面向对象编程01：面向对象与面向过程.md",
+    "content/posts/2022/面向对象编程03：组合、继承与委托.md",
+    "content/posts/2022/面向对象编程04：贫血模型与充血模型.md",
+    "content/posts/2022/面向对象编程05：如何利用面向对象编程开发接口鉴权功能？.md"
+  ]
 }

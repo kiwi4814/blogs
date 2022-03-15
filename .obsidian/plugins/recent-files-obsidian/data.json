@@ -1,8 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "Day Planner-20220315",
-      "path": "Day Planners/Day Planner-20220315.md"
+      "basename": "面向对象编程02：接口与抽象类",
+      "path": "content/posts/2022/面向对象编程02：接口与抽象类.md"
+    },
+    {
+      "basename": "从零开始搭建个人博客（1） - 准备工作",
+      "path": "content/posts/2022/从零开始搭建个人博客（1） - 准备工作.md"
+    },
+    {
+      "basename": "面向对象编程01：面向对象与面向过程",
+      "path": "content/posts/2022/面向对象编程01：面向对象与面向过程.md"
+    },
+    {
+      "basename": "面向对象编程03：组合、继承与委托",
+      "path": "content/posts/2022/面向对象编程03：组合、继承与委托.md"
+    },
+    {
+      "basename": "面向对象编程04：贫血模型与充血模型",
+      "path": "content/posts/2022/面向对象编程04：贫血模型与充血模型.md"
+    },
+    {
+      "basename": "面向对象编程05：如何利用面向对象编程开发接口鉴权功能？",
+      "path": "content/posts/2022/面向对象编程05：如何利用面向对象编程开发接口鉴权功能？.md"
     },
     {
       "basename": "Day Planner-20220314",
@@ -179,26 +199,6 @@
     {
       "basename": "2022-02-21_周一",
       "path": "DailyNotes/2022-02-21_周一.md"
-    },
-    {
-      "basename": "Day Planner-20220218",
-      "path": "Day Planners/Day Planner-20220218.md"
-    },
-    {
-      "basename": "Day Planner-20220215",
-      "path": "Day Planners/Day Planner-20220215.md"
-    },
-    {
-      "basename": "Day Planner-20220214",
-      "path": "Day Planners/Day Planner-20220214.md"
-    },
-    {
-      "basename": "Day Planner-20220216",
-      "path": "Day Planners/Day Planner-20220216.md"
-    },
-    {
-      "basename": "Day Planner-20220217",
-      "path": "Day Planners/Day Planner-20220217.md"
     }
   ],
   "omittedPaths": [],
