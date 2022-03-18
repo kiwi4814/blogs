@@ -189,30 +189,30 @@ uglyURLs = false
 
 [menu]
     ## 菜单栏
-    [[menu.main]]
-        pageref = "/posts/"
-        name = "首页"
-        weight = 1
-        pre = "internal"
-        post = "home"
+    # [[menu.main]]
+    #     pageref = "/home/"
+    #     name = "首页"
+    #     weight = 1
+    #     pre = "internal"
+    #     post = "home"
     [[menu.main]]
         pageref = "/posts/"
         name = "文章"
         weight = 2
         pre = "internal"
         post = "archive"
-    [[menu.main]]
-        pageref = "/categories/"
-        name = "分类"
-        weight = 3
-        pre = "internal"
-        post = "th"
-    [[menu.main]]
-        pageref = "/tags/"
-        name = "标签"
-        weight = 4
-        pre = "internal"
-        post = "tags"
+    # [[menu.main]]
+    #     pageref = "/categories/"
+    #     name = "分类"
+    #     weight = 3
+    #     pre = "internal"
+    #     post = "th"
+    # [[menu.main]]
+    #     pageref = "/tags/"
+    #     name = "标签"
+    #     weight = 4
+    #     pre = "internal"
+    #     post = "tags"
     [[menu.main]]
         pageref = "/series/"
         name = "系列"
@@ -359,41 +359,48 @@ uglyURLs = false
     # 3. posts     文章摘要
     # 4. page      普通页面
 
-    homeLayout = "page"
+    homeLayout = "poetry"
 
     ## 「诗意人生」
     # 诗句，支持 Markdown
-    # homePoetry = ["The apparition of these faces in the crowd,","Petals on a wet,","black bough."]
+    homePoetry = ["# In a Station of the Metro ",
+    "BY     ***EZRA POUND***",
+    "<br>",
+    "<font size='6'>",
+    "*The apparition of these faces in the crowd*,",
+    "*Petals on a wet*,",
+    "*black bough*.",
+    "</font>"]
     # homePoetry = ["滕王高阁临江渚，","佩玉鸣鸾罢歌舞。","画栋朝飞南浦云，","珠帘暮卷西山雨。","闲云潭影日悠悠，","物换星移几度秋。","阁中帝子今何在？","槛外长江空自流。"]    
-    homePoetry = ["将进酒·君不见黄河之水天上来",
+#     homePoetry = ["将进酒·君不见黄河之水天上来",
 
-"[唐] 李白",
+# "[唐] 李白",
 
-"君不见黄河之水天上来，奔流到海不复回。",
+# "君不见黄河之水天上来，奔流到海不复回。",
 
-"君不见高堂明镜悲白发，朝如青丝暮成雪。",
+# "君不见高堂明镜悲白发，朝如青丝暮成雪。",
 
-"人生得意须尽欢，莫使金樽空对月。",
+# "人生得意须尽欢，莫使金樽空对月。",
 
-"天生我材必有用，千金散尽还复来。",
+# "天生我材必有用，千金散尽还复来。",
 
-"烹羊宰牛且为乐，会须一饮三百杯。",
+# "烹羊宰牛且为乐，会须一饮三百杯。",
 
-"岑夫子，丹丘生，将进酒，杯莫停。",
+# "岑夫子，丹丘生，将进酒，杯莫停。",
 
-"与君歌一曲，请君为我倾耳听。",
+# "与君歌一曲，请君为我倾耳听。",
 
-"钟鼓馔玉不足贵，但愿长醉不复醒。",
+# "钟鼓馔玉不足贵，但愿长醉不复醒。",
 
-"古来圣贤皆寂寞，惟有饮者留其名。",
+# "古来圣贤皆寂寞，惟有饮者留其名。",
 
-"陈王昔时宴平乐，斗酒十千恣欢谑。",
+# "陈王昔时宴平乐，斗酒十千恣欢谑。",
 
-"主人何为言少钱，径须沽取对君酌。",
+# "主人何为言少钱，径须沽取对君酌。",
 
-"五花马，千金裘，",
+# "五花马，千金裘，",
 
-"呼儿将出换美酒，与尔同销万古愁。"]    
+# "呼儿将出换美酒，与尔同销万古愁。"]    
 
     # 底部链接的内间距，单位：em
     homeLinksPadding = 2
