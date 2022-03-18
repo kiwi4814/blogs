@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "content/posts/2022/面向对象编程02：接口与抽象类.md",
+            "file": "content/posts/2022/面向对象编程05：如何利用面向对象编程开发接口鉴权功能？.md",
             "mode": "source"
           }
         }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/posts/2022/面向对象编程02：接口与抽象类.md",
+                "file": "content/posts/2022/面向对象编程05：如何利用面向对象编程开发接口鉴权功能？.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,11 +96,11 @@
   },
   "active": "d13b8d4df001458f",
   "lastOpenFiles": [
+    "content/posts/2022/面向对象编程05：如何利用面向对象编程开发接口鉴权功能？.md",
     "content/posts/2022/面向对象编程02：接口与抽象类.md",
     "content/posts/2022/从零开始搭建个人博客（1） - 准备工作.md",
     "content/posts/2022/面向对象编程01：面向对象与面向过程.md",
     "content/posts/2022/面向对象编程03：组合、继承与委托.md",
-    "content/posts/2022/面向对象编程04：贫血模型与充血模型.md",
-    "content/posts/2022/面向对象编程05：如何利用面向对象编程开发接口鉴权功能？.md"
+    "content/posts/2022/面向对象编程04：贫血模型与充血模型.md"
   ]
 }
