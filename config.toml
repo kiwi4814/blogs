@@ -365,12 +365,13 @@ uglyURLs = false
     # 诗句，支持 Markdown
     homePoetry = ["# In a Station of the Metro ",
     "BY     ***EZRA POUND***",
-    "<br>",
+    "<img src='https://gitee.com/kiwi4814/pictures/raw/master/img/202203181439839.jpeg' alt='1280px-Suzuki_Harunobu_-_Woman_Admiring_Plum_Blossoms_at_Night' style='zoom: 33%;' />",
     "<font size='6'>",
     "*The apparition of these faces in the crowd*,",
     "*Petals on a wet*,",
     "*black bough*.",
-    "</font>"]
+    "</font>",
+    "<img src='https://gitee.com/kiwi4814/pictures/raw/master/img/202203181439839.jpeg' alt='1280px-Suzuki_Harunobu_-_Woman_Admiring_Plum_Blossoms_at_Night' style='zoom: 33%;' />"]
     # homePoetry = ["滕王高阁临江渚，","佩玉鸣鸾罢歌舞。","画栋朝飞南浦云，","珠帘暮卷西山雨。","闲云潭影日悠悠，","物换星移几度秋。","阁中帝子今何在？","槛外长江空自流。"]    
 #     homePoetry = ["将进酒·君不见黄河之水天上来",
 
