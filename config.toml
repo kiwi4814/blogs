@@ -201,30 +201,30 @@ uglyURLs = false
         weight = 2
         pre = "internal"
         post = "archive"
-    # [[menu.main]]
-    #     pageref = "/categories/"
-    #     name = "分类"
-    #     weight = 3
-    #     pre = "internal"
-    #     post = "th"
-    # [[menu.main]]
-    #     pageref = "/tags/"
-    #     name = "标签"
-    #     weight = 4
-    #     pre = "internal"
-    #     post = "tags"
+    [[menu.main]]
+        pageref = "/categories/"
+        name = "归档"
+        weight = 6
+        pre = "internal"
+        post = "th"
+    [[menu.main]]
+        pageref = "/tags/"
+        name = "标签"
+        weight = 4
+        pre = "internal"
+        post = "tags"
     [[menu.main]]
         pageref = "/series/"
         name = "系列"
-        weight = 5
+        weight = 3
         pre = "internal"
         post = "wpexplorer"     
-    [[menu.main]]
-        pageref = "/about/"
-        name = "关于"
-        weight = 6
-        pre = "internal"
-        post = "user-circle"
+    # [[menu.main]]
+    #     pageref = "/about/"
+    #     name = "关于"
+    #     weight = 6
+    #     pre = "internal"
+    #     post = "user-circle"
     [[menu.main]]
         weight = 7
         identifier = "theme-switcher"
@@ -365,7 +365,7 @@ uglyURLs = false
     # 诗句，支持 Markdown
     homePoetry = ["# In a Station of the Metro ",
     "BY     ***EZRA POUND***",
-    "<img src='https://gitee.com/kiwi4814/pictures/raw/master/img/202203181439839.jpeg' alt='1280px-Suzuki_Harunobu_-_Woman_Admiring_Plum_Blossoms_at_Night' style='zoom: 33%;' />",
+    # "<img src='https://gitee.com/kiwi4814/pictures/raw/master/img/202203181439839.jpeg' alt='1280px-Suzuki_Harunobu_-_Woman_Admiring_Plum_Blossoms_at_Night' style='zoom: 33%;' />",
     "<font size='6'>",
     "*The apparition of these faces in the crowd*,",
     "*Petals on a wet*,",
