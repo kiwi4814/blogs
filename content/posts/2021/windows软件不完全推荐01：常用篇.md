@@ -1,5 +1,5 @@
 +++
-title = "windows软件不完全推荐01—常用篇"
+title = "windows软件不完全推荐01：常用篇"
 date = 2021-12-27T20:35:47+08:00
 draft = false
 slug = "/windows-software-common"
