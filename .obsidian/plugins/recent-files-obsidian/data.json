@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "13@设计原则06：KISS 原则和 YAGNI 原则",
+      "path": "content/posts/2022/design-patterns/13@设计原则06：KISS 原则和 YAGNI 原则.md"
+    },
+    {
+      "basename": "12@设计原则05：控制反转原则（DIP）",
+      "path": "content/posts/2022/design-patterns/12@设计原则05：控制反转原则（DIP）.md"
+    },
+    {
       "basename": "浏览器扩展推荐",
       "path": "content/posts/2022/浏览器扩展推荐.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "2022-01-24_周一",
       "path": "DailyNotes/2022-01-24_周一.md"
-    },
-    {
-      "basename": "2022-03-03_周四",
-      "path": "DailyNotes/2022-03-03_周四.md"
-    },
-    {
-      "basename": "Day Planner-20220223",
-      "path": "Day Planners/Day Planner-20220223.md"
     }
   ],
   "omittedPaths": [],
