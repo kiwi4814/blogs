@@ -7,8 +7,12 @@
         "id": "d13b8d4df001458f",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "content/posts/2022/浏览器扩展推荐.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -73,6 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "content/posts/2022/浏览器扩展推荐.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -92,15 +97,15 @@
   },
   "active": "d13b8d4df001458f",
   "lastOpenFiles": [
-    "content/posts/2022/面向对象编程05：如何利用面向对象编程开发接口鉴权功能？.md",
+    "content/posts/2022/浏览器扩展推荐.md",
     "content/posts/2021/windows软件不完全推荐01：常用篇.md",
-    "content/posts/2021/Windows软件不完全推荐02：办公篇.md",
-    "content/posts/2021/Windows软件不完全推荐03：工具篇.md",
-    "content/posts/2022/未命名.md",
-    "content/posts/2022/从零开始搭建个人博客01：准备工作.md",
-    "content/posts/2022/面向对象编程02：接口与抽象类.md",
-    "content/posts/2022/面向对象编程01：面向对象与面向过程.md",
-    "content/posts/2022/面向对象编程03：组合、继承与委托.md",
-    "content/posts/2022/面向对象编程04：贫血模型与充血模型.md"
+    "content/posts/2022/design-patterns/01@面向对象编程01：面向对象与面向过程.md",
+    "content/posts/2022/design-patterns/02@面向对象编程02：接口与抽象类.md",
+    "content/posts/2022/design-patterns/03@面向对象编程03：组合、继承与委托.md",
+    "content/posts/2022/design-patterns/04@面向对象编程04：贫血模型与充血模型.md",
+    "content/posts/2022/design-patterns/05@面向对象编程05：如何利用面向对象编程开发接口鉴权功能？.md",
+    "content/posts/2022/design-patterns/08@设计原则01：单一职责原则（SRP）.md",
+    "content/posts/2022/design-patterns/09@设计原则02：开闭原则（OCP）.md",
+    "content/posts/2022/design-patterns/10@设计原则03：里氏替换原则（LSP）.md"
   ]
 }
