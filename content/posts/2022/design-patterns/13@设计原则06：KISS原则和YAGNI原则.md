@@ -1,7 +1,7 @@
 +++
 title = "设计原则06：KISS原则和YAGNI原则"
 date = 2022-03-21 13:23:16
-slug = "/kiss&yagni"
+slug = "/kiss-yagni"
 draft = false
 tags = ["阅读笔记","设计模式"]
 categories = ["阅读笔记"]
