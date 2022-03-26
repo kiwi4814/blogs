@@ -371,7 +371,7 @@ uglyURLs = false
     "*Petals on a wet*,",
     "*black bough*.",
     "</font>",
-    "<img src='https://gitee.com/kiwi4814/pictures/raw/master/img/202203181439839.jpeg' alt='首页' style='zoom: 33%;' />"]
+    "<img src='https://gitee.com/kiwi4814/pictures/raw/master/img/202203181439839.jpeg' alt='首页' referrerpolicy='no-referrer' style='zoom: 33%;' />"]
     # homePoetry = ["滕王高阁临江渚，","佩玉鸣鸾罢歌舞。","画栋朝飞南浦云，","珠帘暮卷西山雨。","闲云潭影日悠悠，","物换星移几度秋。","阁中帝子今何在？","槛外长江空自流。"]    
 #     homePoetry = ["将进酒·君不见黄河之水天上来",
 
