@@ -1,16 +1,40 @@
 {
   "recentFiles": [
     {
-      "basename": "浏览器扩展推荐",
-      "path": "content/posts/2022/浏览器扩展推荐.md"
-    },
-    {
       "basename": "从零开始搭建个人博客01：准备工作",
       "path": "content/posts/2022/从零开始搭建个人博客01：准备工作.md"
     },
     {
+      "basename": "常见方法论和心理效应",
+      "path": "content/posts/2021/常见方法论和心理效应.md"
+    },
+    {
+      "basename": "流媒体时代如何找到自己想看的电影",
+      "path": "content/posts/2021/流媒体时代如何找到自己想看的电影.md"
+    },
+    {
+      "basename": "WSL安装oh-my-posh踩坑记录",
+      "path": "content/posts/2021/WSL安装oh-my-posh踩坑记录.md"
+    },
+    {
+      "basename": "Windows软件不完全推荐03：工具篇",
+      "path": "content/posts/2021/Windows软件不完全推荐03：工具篇.md"
+    },
+    {
+      "basename": "Windows软件不完全推荐02：办公篇",
+      "path": "content/posts/2021/Windows软件不完全推荐02：办公篇.md"
+    },
+    {
+      "basename": "windows软件不完全推荐01：常用篇",
+      "path": "content/posts/2021/windows软件不完全推荐01：常用篇.md"
+    },
+    {
       "basename": "15@设计原则08：迪米特法则（LOD）",
       "path": "content/posts/2022/design-patterns/15@设计原则08：迪米特法则（LOD）.md"
+    },
+    {
+      "basename": "浏览器扩展推荐",
+      "path": "content/posts/2022/浏览器扩展推荐.md"
     },
     {
       "basename": "14@设计原则07：DRY原则和代码复用性",
@@ -63,10 +87,6 @@
     {
       "basename": "13@设计原则06：KISS 原则和 YAGNI 原则",
       "path": "content/posts/2022/design-patterns/13@设计原则06：KISS 原则和 YAGNI 原则.md"
-    },
-    {
-      "basename": "windows软件不完全推荐01：常用篇",
-      "path": "content/posts/2021/windows软件不完全推荐01：常用篇.md"
     },
     {
       "basename": "面向对象编程05：如何利用面向对象编程开发接口鉴权功能？",
@@ -179,26 +199,6 @@
     {
       "basename": "2022-03-05_周六",
       "path": "DailyNotes/2022-03-05_周六.md"
-    },
-    {
-      "basename": "Day Planner-20220304",
-      "path": "Day Planners/Day Planner-20220304.md"
-    },
-    {
-      "basename": "Day Planner-20220303",
-      "path": "Day Planners/Day Planner-20220303.md"
-    },
-    {
-      "basename": "Day Planner-20220302",
-      "path": "Day Planners/Day Planner-20220302.md"
-    },
-    {
-      "basename": "Day Planner-20220301",
-      "path": "Day Planners/Day Planner-20220301.md"
-    },
-    {
-      "basename": "Day Planner-20220228",
-      "path": "Day Planners/Day Planner-20220228.md"
     }
   ],
   "omittedPaths": [],
