@@ -52,7 +52,7 @@ series = ["windows软件不完全推荐"]
 - **使用方法**：使用6.29版本记得关闭自动更新。
 - **同类软件**：WinRar、[7-Zip](http://7-zip.org/)等等
 
-<img src="https://gitee.com/kiwi4814/pictures/raw/master/img/image-20211127161546420.png" alt="image-20211127161546420" style="zoom: 50%;" />
+<img src="https://kiwi4814-1256211473.cos.ap-nanjing.myqcloud.com/img/image-20211127161546420.png" alt="image-20211127161546420" style="zoom: 50%;" />
 
 ### 02. 浏览器
 
@@ -101,7 +101,7 @@ series = ["windows软件不完全推荐"]
 
 - **我的理由**：如果你喜欢用MacOS，那你一定知道Alfred，它基本上替代了苹果自家的Spotlight，在我看来，上面说的Wox及其同类软件做的就是Spotlight做的事情，而utools想做的是Alfred，虽然相比于万能的Alfred还逊色很多，但总归有这样的软件出现了，希望能越做越好。
 
-  ![image-20211129213706647](https://i.loli.net/2021/11/29/wD7RhGYyEpFImTo.png)
+  ![image-20211129213706647](https://kiwi4814-1256211473.cos.ap-nanjing.myqcloud.com/img/wD7RhGYyEpFImTo.png)
 
 - **授权方式**：<font style="background-color:#8bc34a">免费</font>使用，升级VIP有更多功能
 
@@ -119,7 +119,7 @@ series = ["windows软件不完全推荐"]
 
 - **使用方法**：使用起来非常简单，在桌面上绘制一个矩形，然后进行分类即可；双击隐藏所有文件（也可以设置哪些区域不隐藏）。
 
-  ![image-20211205165111007](https://s2.loli.net/2021/12/05/ROAW86uwKnJ1LBF.png)
+  ![image-20211205165111007](https://kiwi4814-1256211473.cos.ap-nanjing.myqcloud.com/img/ROAW86uwKnJ1LBF.png)
 
 - **同类软件**：[腾讯桌面](https://guanjia.qq.com/product/zmzl/)
 
@@ -148,7 +148,7 @@ series = ["windows软件不完全推荐"]
 
 - **使用方法**：设置好自己熟悉的快捷键，比如我自己设置的时**Ctrl+`**，当我想要使用的时候快速呼出，方向键选择或者直接搜索后按Enter即可。
 
-  ![动画](https://gitee.com/kiwi4814/pictures/raw/master/img/KIbCoPnzO891Eje.gif)
+  ![动画](https://kiwi4814-1256211473.cos.ap-nanjing.myqcloud.com/img/KIbCoPnzO891Eje.gif)
 
 - **同类软件**：windows自带的`Win+V`、开源软件CopyQ，此外还有多平台支持的云剪切板工具[快贴](https://clipber.com/)
 
@@ -164,7 +164,7 @@ series = ["windows软件不完全推荐"]
 
 - **使用方法**：两种，一种是快捷键呼出搜索常用短语，另外一种是设置快捷短语，比如我输入`@163`这四个字符的时候，就会快速把我的网易邮箱替换上去，非常方便。
 
-  ![1](https://s2.loli.net/2021/12/06/MbLpdKgjJCVmOHc.gif)
+  ![1](https://kiwi4814-1256211473.cos.ap-nanjing.myqcloud.com/img/MbLpdKgjJCVmOHc.gif)
 
 - **同类软件**：几乎所有的输入法都带有自定义短语的功能，上面说的邮箱、电话也是可以实现的，但是d动态渲染、脚本之类的就不支持了；此外还有[TextExpander](https://textexpander.com/download)，价格太贵，同样不推荐。
 
@@ -177,7 +177,7 @@ series = ["windows软件不完全推荐"]
 
   *其实这个软件和上面的很多功能都有重叠，尤其是utools，都是集合了很多丰富功能的效率软件，但是Quicker侧重点在于工作流，utools本质还是启动器+工具。即便如此，要用的话只需要选一个使用就可以了。*
 
-  ![image-20211205173110301](https://gitee.com/kiwi4814/pictures/raw/master/img/apOHgyohsntqX2Q.png)
+  ![image-20211205173110301](https://kiwi4814-1256211473.cos.ap-nanjing.myqcloud.com/img/apOHgyohsntqX2Q.png)
 
 - **授权方式**：免费使用，但有限制，收费的话是<font>订阅制</font>的形式
 
@@ -259,7 +259,7 @@ series = ["windows软件不完全推荐"]
 
 - **使用方法**：安装后设置常用的快捷键以及截图后的默认动作，比如我一般设置快捷键为Ctrl+Shift+A，录屏为Ctrl+Shift+PrintScreen，截图后复制到剪切板。
 
-  ![image-20211127181335391](https://gitee.com/kiwi4814/pictures/raw/master/img/image-20211127181335391.png)
+  ![image-20211127181335391](https://kiwi4814-1256211473.cos.ap-nanjing.myqcloud.com/img/image-20211127181335391.png)
 
 - **同类软件**：Snipaste，FastStone等
 
@@ -285,13 +285,13 @@ series = ["windows软件不完全推荐"]
 - **使用方法**：默认快捷键与其他播放器不太一样，比如双击暂停、右键选项菜单、鼠标中键切换全屏等，不习惯的可以自定义。另外，倍速播放、切换音轨、切换字幕都是很方便的快捷键，可以自行搜索下，记住常用的即可。
 - **同类软件**：KMPlayer 、迅雷影音等
 
-<img src="https://gitee.com/kiwi4814/pictures/raw/master/img/image-20211127164723187.png" alt="image-20211127164723187" style="zoom:67%;" />
+<img src="https://kiwi4814-1256211473.cos.ap-nanjing.myqcloud.com/img/image-20211127164723187.png" alt="image-20211127164723187" style="zoom:67%;" />
 
 #### [YesPlayMusic](https://github.com/qier222/YesPlayMusic)
 
 - **软件简介**：高颜值的第三方网易云播放器。
 
-  ![image-20211202221610043](https://gitee.com/kiwi4814/pictures/raw/master/img/2TvV3RA41xSltW6.png)
+  ![image-20211202221610043](https://kiwi4814-1256211473.cos.ap-nanjing.myqcloud.com/img/2TvV3RA41xSltW6.png)
 
 - **我的理由**：最近发现的一个三方客户端，颜值很高，喜欢折腾的可以去尝试[UnblockNeteaseMusic](https://github.com/revincx/UnblockNeteaseMusic)，这样最头疼的版权问题也能解决，顺便还支持Last.fm，喜欢看数据的话可以关联一下。
 
@@ -524,7 +524,7 @@ series = ["windows软件不完全推荐"]
 
 - **我的理由**：全局流量代理，界面符合审美，自定义规则
 
-  ![image-20211202235657168](https://gitee.com/kiwi4814/pictures/raw/master/img/BUgi42AudjGprmP.png)
+  ![image-20211202235657168](https://kiwi4814-1256211473.cos.ap-nanjing.myqcloud.com/img/BUgi42AudjGprmP.png)
 
 - **授权方式**：<font style="background-color:#8bc34a">开源免费</font>
 
@@ -538,7 +538,7 @@ series = ["windows软件不完全推荐"]
 
 - **我的理由**：~~steam上唯一的买了还要玩的游戏。~~桌面动态壁纸，不怎么占内存，创意工坊可以下载其他人制作的壁纸，甚至可以在桌面上玩互动游戏。
 
-  ![image-20211202235140350](https://i.loli.net/2021/12/02/DIxUnhTEtNoZS35.png)
+  ![image-20211202235140350](https://kiwi4814-1256211473.cos.ap-nanjing.myqcloud.com/img/DIxUnhTEtNoZS35.png)
 
 - **授权方式**：需通过[Steam](https://store.steampowered.com/)商店购买，18R
 
@@ -556,7 +556,7 @@ series = ["windows软件不完全推荐"]
 
 - **使用方法**：安装后任务管理器会出现音量图标，设置原本的音量图标不显示即可，单机图标即可出现下图所示的调节音量界面。
 
-  <img src="https://gitee.com/kiwi4814/pictures/raw/master/img/image-20211127191256910.png" alt="image-20211127191256910" style="zoom:33%;" />
+  <img src="https://kiwi4814-1256211473.cos.ap-nanjing.myqcloud.com/img/image-20211127191256910.png" alt="image-20211127191256910" style="zoom:33%;" />
 
 #### [f.lux](https://justgetflux.com/)
 
@@ -568,7 +568,7 @@ series = ["windows软件不完全推荐"]
 
 - **使用方法**：安装后设置经纬度就可以自动变化色温了，当然也有更专业的设置可以自己研究，**设计师慎用**。
 
-  <img src="https://gitee.com/kiwi4814/pictures/raw/master/img/image-20211127192252616.png" alt="image-20211127192252616" style="zoom:50%;" />
+  <img src="https://kiwi4814-1256211473.cos.ap-nanjing.myqcloud.com/img/image-20211127192252616.png" alt="image-20211127192252616" style="zoom:50%;" />
 
 
 

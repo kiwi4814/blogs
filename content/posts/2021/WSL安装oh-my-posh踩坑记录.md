@@ -13,7 +13,7 @@ categories = ["软件与工具"]
 
 推荐安装**Caskaydia Cove Nerd Font**
 
-![image-20211121161954784](https://gitee.com/kiwi4814/pictures/raw/master/img/image-20211121161954784.png)
+![image-20211121161954784](https://kiwi4814-1256211473.cos.ap-nanjing.myqcloud.com/img/image-20211121161954784.png)
 
 ### 二、安装oh-my-posh
 
@@ -150,7 +150,7 @@ Install-Module oh-my-posh -Scope CurrentUser
 
 最终效果：
 
-![image-20211121173415026](https://gitee.com/kiwi4814/pictures/raw/master/img/image-20211121173415026.png)
+![image-20211121173415026](https://kiwi4814-1256211473.cos.ap-nanjing.myqcloud.com/img/image-20211121173415026.png)
 
 ###### 2.2.2 WSL
 
@@ -175,7 +175,7 @@ eval "$(oh-my-posh-wsl --init --shell bash --config /mnt/c/Users/heqifeng/AppDat
 source .bashrc
 ```
 
-![image-20211121181139938](https://gitee.com/kiwi4814/pictures/raw/master/img/image-20211121181139938.png)
+![image-20211121181139938](https://kiwi4814-1256211473.cos.ap-nanjing.myqcloud.com/img/image-20211121181139938.png)
 
 当然了，WSL下是可以使用oh-my-zsh的，这里预留个坑位： [WSL安装oh my zsh.md](WSL安装oh my zsh.md) 
 

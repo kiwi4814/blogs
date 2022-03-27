@@ -5,11 +5,12 @@ draft = false
 slug = "/juc-summary"
 tags = ["Java"]
 categories = ["技术"]
+
 +++
 
 # 一、Lock框架和Tools类
 
-![](https://gitee.com/kiwi4814/pictures/raw/master/img/java-thread-x-juc-overview-lock.png)
+![](https://kiwi4814-1256211473.cos.ap-nanjing.myqcloud.com/img/java-thread-x-juc-overview-lock.png)
 
 类结构总览
 
@@ -85,7 +86,7 @@ categories = ["技术"]
 
 # 二、Collections: 并发集合
 
-![类结构关系](https://gitee.com/kiwi4814/pictures/raw/master/img/java-thread-x-juc-overview-2.png)
+![类结构关系](https://kiwi4814-1256211473.cos.ap-nanjing.myqcloud.com/img/java-thread-x-juc-overview-2.png)
 
 类结构关系
 
@@ -185,7 +186,7 @@ categories = ["技术"]
 
 # 四、Executors: 线程池
 
-![类结构关系](https://gitee.com/kiwi4814/pictures/raw/master/img/Untitled.png)
+![类结构关系](https://kiwi4814-1256211473.cos.ap-nanjing.myqcloud.com/img/Untitled.png)
 
 类结构关系
 
