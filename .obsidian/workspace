@@ -7,8 +7,12 @@
         "id": "d13b8d4df001458f",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "content/posts/2022/从零开始搭建个人博客01：准备工作.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -57,7 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 512
+    "width": 592
   },
   "right": {
     "id": "aebe9da7f5151b96",
@@ -73,6 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "content/posts/2022/从零开始搭建个人博客01：准备工作.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -92,11 +97,15 @@
   },
   "active": "d13b8d4df001458f",
   "lastOpenFiles": [
-    "content/posts/2022/面向对象编程05：如何利用面向对象编程开发接口鉴权功能？.md",
-    "content/posts/2022/面向对象编程02：接口与抽象类.md",
-    "content/posts/2022/从零开始搭建个人博客（1） - 准备工作.md",
-    "content/posts/2022/面向对象编程01：面向对象与面向过程.md",
-    "content/posts/2022/面向对象编程03：组合、继承与委托.md",
-    "content/posts/2022/面向对象编程04：贫血模型与充血模型.md"
+    "content/posts/2022/从零开始搭建个人博客01：准备工作.md",
+    "content/posts/2021/常见方法论和心理效应.md",
+    "content/posts/2021/流媒体时代如何找到自己想看的电影.md",
+    "content/posts/2021/WSL安装oh-my-posh踩坑记录.md",
+    "content/posts/2021/Windows软件不完全推荐03：工具篇.md",
+    "content/posts/2021/Windows软件不完全推荐02：办公篇.md",
+    "content/posts/2021/windows软件不完全推荐01：常用篇.md",
+    "content/posts/2022/design-patterns/15@设计原则08：迪米特法则（LOD）.md",
+    "content/posts/2022/浏览器扩展推荐.md",
+    "content/posts/2022/design-patterns/14@设计原则07：DRY原则和代码复用性.md"
   ]
 }

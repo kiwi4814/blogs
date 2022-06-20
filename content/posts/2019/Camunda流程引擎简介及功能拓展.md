@@ -15,7 +15,7 @@ categories = ["技术"]
 
 Camunda BPM （BPM，Business Process Manager，业务流程管理）是一个灵活的工作流和过程自动化框架，它的核心是一个在Java虚拟机内部运行的原生BPMN 2.0流程引擎，因此它可以嵌入到任何Java应用程序或运行时容器中。Camunda BPM与Java EE 6集成，并可以与Spring Framework完美匹配。 Camunda BPM附带了用于创建工作流和决策模型，在生产中操作已部署模型以及允许用户执行分配给他们的工作流任务的工具。
 
-![流程引擎架构图（来源：官方文档）](https://gitee.com/kiwi4814/pictures/raw/master/img/architecture-overview.png)
+![流程引擎架构图（来源：官方文档）](https://kiwi4814-1256211473.cos.ap-nanjing.myqcloud.com/img/architecture-overview.png)
 
 流程引擎架构图（来源：官方文档）
 
@@ -34,7 +34,7 @@ Camunda BPM官方提供了用于建模BPMN工作流和DMN决策的桌面应用�
 
 下面为使用Camunda Moleler设计的一张只含有基本元素的流程定义：
 
-![一个普通的流程图示例](https://gitee.com/kiwi4814/pictures/raw/master/img/1559570847866.png)
+![一个普通的流程图示例](https://kiwi4814-1256211473.cos.ap-nanjing.myqcloud.com/img/1559570847866.png)
 
 一个普通的流程图示例
 
@@ -105,7 +105,7 @@ Camunda BPM支持统一表达式语言（EL），它是JSP 2.1标准（JSR-245�
 
 ### 流程引擎的生命周期
 
-![流程引擎的生命周期](https://gitee.com/kiwi4814/pictures/raw/master/img/Camunda%E6%B5%81%E7%A8%8B%E5%BC%95%E6%93%8E%E7%AE%80%E4%BB%8B%20a4fe0f2279754a49b750f583f42fa27b.png)
+![流程引擎的生命周期](https://kiwi4814-1256211473.cos.ap-nanjing.myqcloud.com/img/Camunda%E6%B5%81%E7%A8%8B%E5%BC%95%E6%93%8E%E7%AE%80%E4%BB%8B%20a4fe0f2279754a49b750f583f42fa27b.png)
 
 流程引擎的生命周期
 
@@ -183,7 +183,7 @@ Activity Instances的概念与Execution比较像，不同的是Exectuion是把Ac
 
 ### 流程引擎表结构
 
-![流程引擎的表结构（来源：官方文档）](https://gitee.com/kiwi4814/pictures/raw/master/img/erd_710_bpmn.svg)
+![流程引擎的表结构（来源：官方文档）](https://kiwi4814-1256211473.cos.ap-nanjing.myqcloud.com/img/erd_710_bpmn.svg)
 
 流程引擎的表结构（来源：官方文档）
 
@@ -207,7 +207,7 @@ Activity Instances的概念与Execution比较像，不同的是Exectuion是把Ac
 
 ### 流程引擎API
 
-![流程引擎API（来源：官方文档）](https://gitee.com/kiwi4814/pictures/raw/master/img/api.services.png)
+![流程引擎API（来源：官方文档）](https://kiwi4814-1256211473.cos.ap-nanjing.myqcloud.com/img/api.services.png)
 
 流程引擎API（来源：官方文档）
 

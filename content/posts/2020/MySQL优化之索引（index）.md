@@ -99,7 +99,7 @@ categories = ["技术"]
 > MyISAM 引擎使用 B+Tree 作为索引结构，叶节点的 data 域存放的是数据记录的地址。下图是 MyISAM 索引的原理图：
 > 
 
-![](https://gitee.com/kiwi4814/pictures/raw/master/img/3.png)
+![](https://kiwi4814-1256211473.cos.ap-nanjing.myqcloud.com/img/3.png)
 
 - 这里设表一共有三列，假设我们以 Col1 为主键，则上图是一个 MyISAM 表的主索引（Primary key）示意。可以看出 MyISAM 的索引文件仅仅保存数据记录的地址。
 
@@ -108,7 +108,7 @@ categories = ["技术"]
 > 在MyISAM中，主索引和辅助索引（Secondary key）在结构上没有任何区别，只是主索引要求 key 是唯一的，而辅助索引的 key 可以重复。如果我们在 Col2 上建立一个辅助索引，则此索引的结构如下图所示：
 > 
 
-![](https://gitee.com/kiwi4814/pictures/raw/master/img/4.png)
+![](https://kiwi4814-1256211473.cos.ap-nanjing.myqcloud.com/img/4.png)
 
 - 同样也是一颗 B+Tree，data 域保存数据记录的地址。因此，MyISAM 中索引检索的算法为首先按照 B+Tree 搜索算法搜索索引，如果指定的 Key 存在，则取出其 data 域的值，然后以 data 域的值为地址，读取相应数据记录。
 - MyISAM 的索引方式也叫做“非聚集”的，之所以这么称呼是为了与 InnoDB 的聚集索引区分。
@@ -122,7 +122,7 @@ categories = ["技术"]
 > 与 MyISAM 第一个重大区别是 InnoDB 的数据文件本身就是索引文件。从上文知道，MyISAM 索引文件和数据文件是分离的，索引文件仅保存数据记录的地址。而在 InnoDB 中，表数据文件本身就是按 B+Tree 组织的一个索引结构，这棵树的叶节点 data 域保存了完整的数据记录。这个索引的 key 是数据表的主键，因此 InnoDB 表数据文件本身就是主索引。
 > 
 
-![https://gitee.com/chenjiabing666/Blog-file/raw/master/%E7%B4%A2%E5%BC%95%E5%8E%9F%E7%90%86/2.png](https://gitee.com/kiwi4814/pictures/raw/master/img/2.png)
+![https://gitee.com/chenjiabing666/Blog-file/raw/master/%E7%B4%A2%E5%BC%95%E5%8E%9F%E7%90%86/2.png](https://kiwi4814-1256211473.cos.ap-nanjing.myqcloud.com/img/2.png)
 
 上图是 InnoDB 主索引（同时也是数据文件）的示意图，可以看到叶节点包含了完整的数据记录。这种索引叫做聚集索引。因为 InnoDB 的数据文件本身要按主键聚集，所以 InnoDB 要求表必须有主键（MyISAM 可以没有），如果没有显式指定，则 MySQL 系统会自动选择一个可以唯一标识数据记录的列作为主键，如果不存在这种列，则 MySQL 自动为 InnoDB 表生成一个隐含字段作为主键，这个字段长度为 6 个字节，类型为长整形。
 
@@ -131,7 +131,7 @@ categories = ["技术"]
 > 第二个与 MyISAM 索引的不同是 InnoDB 的辅助索引 data 域存储相应记录主键的值而不是地址。换句话说，InnoDB 的所有辅助索引都引用主键作为 data 域。例如，下图为定义在 Col3 上的一个辅助索引：
 > 
 
-![https://gitee.com/chenjiabing666/Blog-file/raw/master/%E7%B4%A2%E5%BC%95%E5%8E%9F%E7%90%86/1.png](https://gitee.com/kiwi4814/pictures/raw/master/img/1.png)
+![https://gitee.com/chenjiabing666/Blog-file/raw/master/%E7%B4%A2%E5%BC%95%E5%8E%9F%E7%90%86/1.png](https://kiwi4814-1256211473.cos.ap-nanjing.myqcloud.com/img/1.png)
 
 - 这里以英文字符的 ASCII 码作为比较准则。聚集索引这种实现方式使得按主键的搜索十分高效，但是辅助索引搜索需要检索两遍索引：首先检索辅助索引获得主键，然后用主键到主索引中检索获得记录。
 - **InnoDB 表是基于聚簇索引建立的**。因此 InnoDB 的索引能提供一种非常快速的主键查找性能。不过，它的辅助索引也会包含主键列，所以，如果主键使用过长的字段，将会导致其他辅助索变得更大。如果想在表上定义 、很多索引，则争取尽量把主键定义得小一些。InnoDB 不会压缩索引。

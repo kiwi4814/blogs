@@ -1,5 +1,5 @@
 +++
-title = "windows软件不完全推荐03：工具篇"
+title = "windows软件不完全推荐03：工具篇（施工中...）"
 date = 2021-12-29T22:35:47+08:00
 draft = false
 slug = "/windows-software-tools"
@@ -133,7 +133,7 @@ series = ["windows软件不完全推荐"]
 
 - **我的理由**：Kindle最佳伴侣。可以在电脑上管理和增加Kindle书籍，个性化修改书籍封面和内容，转换格式（epub、mobi、azw3），当然也可以直接当作电子书阅读器使用，是一个功能非常齐全的电子书管理器。
 
-  ![image-20211128202259395](https://i.loli.net/2021/11/28/wt9UqNFAC4pjaRI.png)
+  ![image-20211128202259395](https://kiwi4814-1256211473.cos.ap-nanjing.myqcloud.com/img/wt9UqNFAC4pjaRI.png)
 
 - **授权方式**：<font style="background-color:#8bc34a">开源免费</font>
 
@@ -175,7 +175,7 @@ series = ["windows软件不完全推荐"]
 
 - **我的理由**：如果你喜欢自己打造属于自己的电影墙，你肯定会爱上它，支持从各大数据库刮削电影和电视剧对的海报、简介、分集介绍等等。
 
-  ![image-20211128182340967](https://i.loli.net/2021/11/28/ir9kWldhb35v6LF.png)
+  ![image-20211128182340967](https://kiwi4814-1256211473.cos.ap-nanjing.myqcloud.com/img/ir9kWldhb35v6LF.png)
 
 - **授权方式**：使用免费的4.0.6版本即可
 
@@ -200,9 +200,9 @@ series = ["windows软件不完全推荐"]
 
 - **我的理由**：搭配群晖QuickConnect、公网IP或者其他内网穿透软件就可以在任何地方观看你在家里存储的电影电视了，最终实现的效果可以参考下图所示。
 
-  ![image-20211128184640304 (1)](https://i.loli.net/2021/11/28/aR5Qmp3dYskSLj7.jpg)
+  ![image-20211128184640304 (1)](https://kiwi4814-1256211473.cos.ap-nanjing.myqcloud.com/img/aR5Qmp3dYskSLj7.jpg)
 
-  ![image-20211128184015350](https://i.loli.net/2021/11/28/reO3KygQYZtVxL5.png)
+  ![image-20211128184015350](https://kiwi4814-1256211473.cos.ap-nanjing.myqcloud.com/img/reO3KygQYZtVxL5.png)
 
 - **授权方式**：<font style="background-color:#8bc34a">开源免费</font>
 
