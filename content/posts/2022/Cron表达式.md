@@ -20,7 +20,7 @@ toc = false
 
 - ***cron表达式经常能看到不同位数的，比如5位，6位甚至7位的，具体怎么区分这些呢？***
 
-  <font color="orange">首先我们要明白语境所说的cron具体是在什么场景下的，类Unix系统下的cron是一种默认的实现，此外还有其他一些实现，比如Quartz Java scheduler。以默认实现和Quartz为例作对比，有以下几点区别：</font>
+  <font color="orange">首先我们要明白语境所说的cron具体是在什么场景下的，类Unix系统下的cron是一种默认的实现，此外还有其他一些实现，比如Quartz Java scheduler。以默认实现和Quartz为例作对比，有以下几点区别：</font> 
 
   - <font color="orange">默认的cron第一位为分钟，第六位是年，年可以省略，也就是我们看到的五位和六位的区别，而Quartz从秒开始，也就是六位或者七位</font>
   - <font color="orange">默认的cron只支持`*` `,` `-`这几个特殊符号（某些情况下也支持 `/`），而Quartz还额外支持`/` `?` `L` `W` `C` `#`等特殊符号，具有强大的功能</font>
