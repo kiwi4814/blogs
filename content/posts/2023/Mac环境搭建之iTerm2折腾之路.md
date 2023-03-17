@@ -5,7 +5,7 @@ title = "Mac环境搭建之iTerm2折腾之路"
 date = 2023-02-01 22:50:03
 slug = "/mac-iterm2"
 draft = false
-tags = ["软件","Mac"]
+tags = ["软件","Mac","oh-my-zsh"]
 toc = false
 
 +++
