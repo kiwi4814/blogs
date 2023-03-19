@@ -3,4 +3,5 @@
 	url = https://github.com/dillonzq/LoveIt.git
 [submodule "themes/meme"]
 	path = themes/meme
-	url = https://github.com/reuixiy/hugo-theme-meme.git
+	url = https://github.com/kiwi4814/hugo-theme-meme.git
+	branch = master
