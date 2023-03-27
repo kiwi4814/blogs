@@ -1,0 +1,164 @@
+##########################################
+# 站点配置
+
+baseURL = "https://kiwi4814.github.io/"
+title = "客驿风尘面，花坐墨痕枝"
+languageCode = "zh-CN"
+hasCJKLanguage = true
+# 版权信息（支持 Markdown）
+copyright = "[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)"
+
+# 主题选择
+theme = "meme"
+
+# `hugo new` 新建文章自动打开的文本编辑器
+newContentEditor = ""
+
+# i18n
+defaultContentLanguage = "zh"
+defaultContentLanguageInSubdir = false
+
+# 是否复数化列表页面的标题
+pluralizeListTitles = false
+
+# 摘要的字数限制
+summaryLength = 42
+
+# 是否开启 GitHub 风格的 Emoji 书写方式
+enableEmoji = true
+
+# 脚注的返回链接中的文本
+footnoteReturnLinkContents = "↩"
+
+# 是否启用 Git 版本信息
+enableGitInfo = true
+
+# 是否生成 robots.txt 文件
+enableRobotsTXT = true
+
+# 每一分页的文章数（仅对「文章摘要」首页布局有效）
+paginate = 5
+
+# URL 相关
+disablePathToLower = false
+relativeURLs = false
+uglyURLs = false
+
+# URL 结构
+[permalinks]
+    categories = "/categories/:year/:month/:slug/"
+    tags = "/tags/:year/:month/:slug/"
+    series = "/series/:year/:month/:slug/"
+# 类别
+[taxonomies]
+    category = "categories"
+    tag = "tags"
+    series = "series"
+
+# 修改时间
+[frontmatter]
+    lastmod = ["lastmod", ":git", ":fileModTime", ":default"]
+
+# Markdown 渲染器
+[markup]
+    defaultMarkdownHandler = "goldmark"
+    [markup.goldmark]
+        [markup.goldmark.extensions]
+            definitionList = true
+            footnote = true
+            linkify = true
+            strikethrough = true
+            table = true
+            taskList = true
+            typographer = false
+        [markup.goldmark.parser]
+            attribute = true
+            autoHeadingID = true
+            autoHeadingIDType = "github"
+        [markup.goldmark.renderer]
+            hardWraps = false
+            unsafe = true
+            xHTML = false
+    [markup.highlight]
+        codeFences = true
+        guessSyntax = false
+        lineNos = true
+        lineNumbersInTable = true
+        noClasses = false
+    [markup.tableOfContents]
+        startLevel = 2
+        endLevel = 6
+        ordered = true
+
+# 压缩 HTML
+[minify.tdewolff.html]
+    keepWhitespace = false
+
+# 作者信息
+[author]
+    # 名字
+    name = "kiwi4814"
+    # 邮箱
+    email = "m4814@outlook.com"
+    # 座右铭或简介
+    motto = "工欲善其事，必先利其器。"
+    # 头像
+    avatar = "/icons/apple-touch-icon.png"
+    # 网站（默认值：baseURL）
+    website = "https://kiwi4814.github.io/"
+
+
+# 相关文章
+[related]
+    threshold = 80
+    includeNewer = true
+    toLower = true
+    [[related.indices]]
+        name = "categories"
+        weight = 100
+    [[related.indices]]
+        name = "tags"
+        weight = 95
+    [[related.indices]]
+        name = "date"
+        weight = 10
+        pattern = "2006"
+
+# Atom 文件格式的媒体类型
+[mediaTypes."application/atom+xml"]
+    suffixes = ["xml"]
+
+# MemE 主题自定义的 Atom 模板
+[outputFormats.SectionsAtom]
+    mediaType = "application/atom+xml"
+    baseName = "atom"
+
+# MemE 主题自定义的 RSS 模板
+[outputFormats.SectionsRSS]
+    mediaType = "application/rss+xml"
+    baseName = "rss"
+
+# lunr.js 的搜索索引
+[outputFormats.SearchIndex]
+    mediaType = "application/json"
+    baseName = "search"
+
+# Algolia 的搜索索引
+[outputFormats.Algolia]
+    mediaType = "application/json"
+    baseName = "algolia"
+    isPlainText = true
+    notAlternative = true
+
+# Hugo 的输出控制
+[outputs]
+    page = ["HTML"]
+    # home = ["HTML", "SectionsAtom", "SectionsRSS", "SearchIndex", "Algolia"]
+    home = ["HTML", "SectionsAtom", "SectionsRSS"]
+    section = ["HTML"]
+    taxonomy = ["HTML"]
+    term = ["HTML"]
+
+# RSS & Atom 文章数限制
+[services.rss]
+    limit = -1

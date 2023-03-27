@@ -1,0 +1,115 @@
+
+##########################################
+# 菜单配置
+
+# MemE 主题支持以下四种菜单：
+# 1. main       顶栏下方（居中布局）或里面（弹性
+#               布局）的菜单栏
+# 2. home       首页的底部链接（适用于「诗意
+#               人生」和「视频片段」布局）
+# 3. socials    社交栏（关于页面的极简页脚）
+# 4. links      链接栏（关于页面的极简页脚）
+
+# 菜单内的配置说明如下：
+# pageref/url   内链地址/外链地址
+# name          文本（留空（""）则无）
+# weight        位置
+# pre           内链（internal）或外链（external）
+# post          图标（留空（""）则无）
+# identifier    图标的 Class 名
+#               （对于弹性布局的顶栏有三个特殊
+#               的值：`theme-switcher`、
+#               `lang-switcher`、`search`）
+
+## 菜单栏
+# [[main]]
+#     pageref = "/home/"
+#     name = "首页"
+#     weight = 1
+#     pre = "internal"
+#     post = "home"
+[[main]]
+    pageref = "/posts/"
+    name = "文章"
+    weight = 2
+    pre = "internal"
+    post = "archive"
+[[main]]
+    pageref = "/categories/"
+    name = "归档"
+    weight = 6
+    pre = "internal"
+    post = "th"
+[[main]]
+    pageref = "/tags/"
+    name = "标签"
+    weight = 4
+    pre = "internal"
+    post = "tags"
+[[main]]
+    pageref = "/series/"
+    name = "系列"
+    weight = 3
+    pre = "internal"
+    post = "wpexplorer"     
+# [[main]]
+#     pageref = "/about/"
+#     name = "关于"
+#     weight = 6
+#     pre = "internal"
+#     post = "user-circle"
+[[main]]
+    weight = 7
+    identifier = "theme-switcher"
+# [[main]]
+#     weight = 8
+#     identifier = "lang-switcher"
+# [[main]]
+#     weight = 9
+#     identifier = "search"
+#     post = "search"
+
+# 首页的底部链接
+# [[home]]
+#     pageref = "/home/"
+#     name = "Home"
+#     weight = 1
+#     pre = "internal"
+# [[home]]
+#     url = "https://kiwi4814.com/"
+#     name = "Telegram"
+#     weight = 2
+#     pre = "external"
+# [[home]]
+#     url = "/atom.xml"
+#     name = "Feed"
+#     weight = 3
+#     pre = "external"
+## 社交栏
+[[socials]]
+    url = "https://github.com/kiwi4814"
+    name = "GitHub"
+    weight = 1
+    pre = "external"
+[[socials]]
+    url = "https://t.me/kiwi4814"
+    name = "Telegram"
+    weight = 2
+    pre = "external"
+
+## 链接栏
+[[links]]
+    pageref = "/"
+    name = "Home"
+    weight = 1
+    pre = "internal"
+[[links]]
+    pageref = "/tags/"
+    name = "Tags"
+    weight = 2
+    pre = "internal"
+[[links]]
+    pageref = "/categories/"
+    name = "categories"
+    weight = 3
+    pre = "internal"
