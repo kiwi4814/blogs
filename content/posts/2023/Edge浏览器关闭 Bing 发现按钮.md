@@ -1,22 +1,17 @@
 ---
-Date : 2023-03-29 16:46:31
-DailyNotes : [[2023-03-29_周三]]
-Link : [Microsoft Edge 最新稳定版已经可以禁用 Bing 按钮 请各位及时删除注册表](https://www.landiannews.com/archives/97983.html?utm_sources=ourl.co&utm_medium=social&utm_campaign=none)
-Tag : #ZK卡片 #Edge #技巧 
+title: Edge浏览器关闭 Bing 发现按钮
+date: 2023-03-29T16:46:31.000
+slug: /edge-bing-icon
+draft: false
+tags:
+  - edge
+  - 软件
+categories:
+  - 软件教程
+series:
+  - 疑难杂症
+enableTOC: false
 ---
-
-+++
-title = "Edge浏览器关闭 Bing 发现按钮"
-date =  2023-03-29 16:46:31
-slug = "/edge-bing-icon"
-draft = false
-tags = ["edge","软件"]
-categories = ["软件教程"]
-series = ["疑难杂症"]
-enableTOC = false
-+++
-
-
 
 Microsoft Edge 111 正式版发布时，微软在Edge浏览器右上角添加了一个硕大的 Bing 按钮，而且无法直接在设置里禁用。
 

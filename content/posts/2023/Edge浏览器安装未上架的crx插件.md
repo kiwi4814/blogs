@@ -1,23 +1,17 @@
 ---
-Date : 2023-03-29 15:18:55
-DailyNotes : [[2023-03-29_周三]]
-Link : [基于 macOS 的 Chrome 以及 Edge 浏览器政策 / 策略配置](https://blog.csdn.net/maxsky/article/details/120205535)
-Tag : #ZK卡片 #Edge #Mac
+title: Edge浏览器安装未上架的crx插件.md
+date: 2023-03-29T15:18:55.000
+slug: /edge-crx
+draft: false
+tags:
+  - edge
+  - 软件
+categories:
+  - 软件教程
+series:
+  - 疑难杂症
+enableTOC: false
 ---
-
-+++
-title = "Edge浏览器安装未上架的crx插件.md"
-date =  2023-03-29 15:18:55
-slug = "/edge-crx"
-draft = false
-tags = ["edge","软件"]
-categories = ["软件教程"]
-series = ["疑难杂症"]
-enableTOC = false
-
-+++
-
-
 
 今天尝试安装一个扩展商店没有上架的Chrome插件，在 github 的 release 界面下载后缀为 `crx` 的扩展文件安装后，却发现安装后为关闭状态并且无法启用，其实可以理解，毕竟不小心下载到并且双击安装也是有可能的。
 
