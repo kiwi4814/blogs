@@ -5,6 +5,8 @@ baseURL = "https://kiwi4814.github.io/"
 title = "客驿风尘面，花坐墨痕枝"
 languageCode = "zh-CN"
 hasCJKLanguage = true
+# 构建未来的文章（防止时区问题导致文章不显示）
+buildfuture = true
 # 版权信息（支持 Markdown）
 copyright = "[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)"
 
