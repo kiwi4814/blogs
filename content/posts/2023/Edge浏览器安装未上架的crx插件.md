@@ -1,5 +1,5 @@
 ---
-title: Edge浏览器安装未上架的crx插件.md
+title: Edge浏览器安装未上架的crx插件
 date: 2023-03-29T15:18:55.000
 slug: /edge-crx
 draft: false
@@ -11,6 +11,8 @@ categories:
 series:
   - 疑难杂症
 enableTOC: false
+link: https://blog.csdn.net/maxsky/article/details/120205535
+tag: #ZK卡片 #Edge #软件
 ---
 
 今天尝试安装一个扩展商店没有上架的Chrome插件，在 github 的 release 界面下载后缀为 `crx` 的扩展文件安装后，却发现安装后为关闭状态并且无法启用，其实可以理解，毕竟不小心下载到并且双击安装也是有可能的。

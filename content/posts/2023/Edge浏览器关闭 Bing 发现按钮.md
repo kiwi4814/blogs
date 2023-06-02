@@ -4,13 +4,15 @@ date: 2023-03-29T16:46:31.000
 slug: /edge-bing-icon
 draft: false
 tags:
-  - edge
+  - Edge
   - 软件
 categories:
   - 软件教程
 series:
   - 疑难杂症
 enableTOC: false
+link: https://www.landiannews.com/archives/97983.html?utm_sources=ourl.co&utm_medium=social&utm_campaign=none
+tag: #ZK卡片 #Edge #软件
 ---
 
 Microsoft Edge 111 正式版发布时，微软在Edge浏览器右上角添加了一个硕大的 Bing 按钮，而且无法直接在设置里禁用。
