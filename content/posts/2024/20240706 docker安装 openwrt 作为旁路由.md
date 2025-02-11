@@ -1,5 +1,5 @@
 ---
-title: Docker安装openwrt作为旁路网关
+title: Docker 安装 openwrt 作为旁路网关
 date: 2024-07-16T16:46:31.000
 slug: /docker-compose-openwrt
 draft: false
