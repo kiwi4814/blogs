@@ -1,3 +1,19 @@
+---
+title: Docker 部署 Watchtower 自动更新容器
+date: 2024-04-09T16:46:31.000
+slug: /docker-compose-watchtower
+draft: false
+tags:
+  - Docker
+categories:
+  - Docker
+series:
+  - Docker
+enableTOC: false
+---
+
+
+
 ### 项目概述 
 
 Watchtower 是一款开源的 Docker 容器自动更新工具，能够持续监控运行中的容器是否具有可用的新镜像版本。当检测到更新时，Watchtower 会自动拉取新镜像，并采用优雅的方式（发送 SIGTERM 信号）重启容器。
@@ -53,7 +69,7 @@ services:
 
 ![image-20250210182513381](https://kiwi4814-1256211473.cos.ap-nanjing.myqcloud.com/img/image-20250210182513381.webp)
 
- 
+
 #### 指定要更新的项目
 
 如果我们只想要自动更新指定的几个项目的话，有两种方案：

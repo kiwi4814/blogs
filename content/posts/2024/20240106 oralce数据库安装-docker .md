@@ -1,5 +1,5 @@
 ---
-title: Docker安装oracle数据库
+title: Docker安装Oracle 11G
 date: 2024-01-06T16:46:31.000
 slug: /docker-oracle
 draft: false
