@@ -1,7 +1,7 @@
 ##########################################
 # 站点配置
 
-baseURL = "https://kiwi4814.com/"
+baseURL = "https://kiwi4814.github.io/"
 title = "kiwi4814"
 languageCode = "zh-CN"
 hasCJKLanguage = true
@@ -105,7 +105,7 @@ uglyURLs = false
     # 头像
     avatar = "/icons/apple-touch-icon.png"
     # 网站（默认值：baseURL）
-    website = "https:/kiwi4814.com/"
+    website = "https:/kiwi4814.github.io/"
     # 推特
     twitter = "kiwi4814"
 
