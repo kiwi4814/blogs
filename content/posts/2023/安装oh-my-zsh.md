@@ -1,6 +1,6 @@
 +++
 title = "centos 安装及配置 oh-my-zsh"
-date = 2023-02-03 15:42:09
+date = 2023-06-03 15:42:09
 slug = "/linux-zsh"
 draft = false
 tags = ["Linux","oh-my-zsh"]

@@ -1,6 +1,6 @@
 +++
 title = "使用ZeroTier实现内网穿透教程"
-date = 2023-03-11 15:05:47
+date = 2023-05-11 15:05:47
 slug = "/zerotier"
 draft = false
 tags = ["技术","NAS"]
