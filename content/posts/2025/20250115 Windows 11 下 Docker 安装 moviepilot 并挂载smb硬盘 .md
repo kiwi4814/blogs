@@ -119,7 +119,7 @@ docker logs moviepilot-v2
 
 为了统一管理docker容器的更新，通过watchtower来对moviepilot进行更新。
 
-安装指南请参照 [[Docker 部署 Watchtower 自动更新容器]]
+安装指南请参照 [Docker 部署 Watchtower 自动更新容器](https://kiwi4814.github.io/posts/2024/docker-compose-watchtower/)
 
 
 
